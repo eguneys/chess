@@ -74,3 +74,9 @@ h2 {
 p {
   font-size: 1.4em;
 }
+
+footer {
+  margin: 1em;
+  font-size: 1.2em;
+  text-align: center;
+}
