@@ -1,0 +1,81 @@
+<!-- #layout article -->
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <title> Free Chess Articles </title>
+    <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>🦄</text></svg>">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans&family=Roboto&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="./assets/main.css"/>
+    <script src="./assets/bundle.js"></script>
+
+    <style>
+     {
+         box-sizing: border-box;
+     }
+
+     html, body {
+         width: 100%;
+         height: 100%;
+         padding: 0px;
+         margin: 0px;
+
+     }
+
+     body {
+         font-family: 'Open Sans', sans-serif;
+         background: black;
+         color: white;
+     }
+
+     section {
+         padding: 1em;
+         background: #202020;
+     }
+
+     h1, h2 {
+         font-family: 'Roboto' sans-serif;
+         color: pink;
+         margin: 0;
+     }
+
+     h1 {
+         font-size: 2.2em;
+     }
+
+     h2 {
+         margin: 1em 0;
+         font-size: 1.4em;
+     }
+
+     p {
+         font-size: 1.4em;
+     }
+
+
+     [data-fen],
+     [data-ply],
+     .hover-ply {
+         width: 60vmin;
+         height: 0;
+         padding-bottom: 60vmin;
+     }
+
+     [data-fen],
+     [data-ply] {
+         position: relative;
+         margin-left: 1em;
+     }
+    </style>
+
+  </head>
+
+  <body>
+
+    <!-- #content body -->
+    <script>
+     Tetris(document.getElementById("chessmd"), {});
+    </script>
+  </body>
+</html>
