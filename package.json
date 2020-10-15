@@ -3,8 +3,10 @@
   "version": "1.0.0",
   "description": "Free Chess Articles",
   "scripts": {
+    "copy": "cp ~/js/chessmd/dist/* assets -ru",
     "build": "jener _pages .",
-    "watch": "watch 'yarn build' _pages"
+    "watch": "watch 'yarn build' _pages",
+    "dev": "yarn watch & live-server --port=3000 > /dev/null"
   },
   "repository": "git@github.com:eguneys/chess.git",
   "author": "Emre Guneyler <eguneys@hotmail.com>",
