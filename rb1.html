@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <title> Free Chess Articles </title>
+    <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>🦄</text></svg>">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans&family=Roboto&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./assets/index.css"/>
+
+    <link rel="stylesheet" href="./assets/main.css"/>
+    <script src="./assets/bundle.js"></script>
+
+    <style>
+     [data-fen],
+     [data-ply],
+     .hover-ply {
+         width: 60vmin;
+         height: 0;
+         padding-bottom: 60vmin;
+     }
+
+     img {
+         width: 60vmin;
+     }
+
+     [data-fen],
+     [data-ply] {
+         position: relative;
+         margin-left: 1em;
+     }
+    </style>
+
+  </head>
+
+  <body>
+
+    <header>
+  <h1><a href="/">Free Chess Articles</a></h1>
+</header>
+    <section id="chessmd">
+
+  <a href="#"><h1> Rapid French Rubinstein #1 </h1></a>
+
+  <date>September 2020</date>
+  • 15+10 Rated • Black vs <a href="https://lichess.org/@/TheWanderingKnight72">@TheWanderingKnight72 (2205) </a>
+
+  <p>
+    &nbsp;&nbsp;<span data-color="black" data-line="1. e4 e6 2. d4 d5 3. Nc3"></span>. White keeps the tension on d5. I don't want to play <span data-game="main2 main" data-line="3... Nf6 4. e5"></span> kicking my knight. So my setup against this variation is <span data-line="3... dxe4 4. Nxe4 Nd7"></span> and later go Nf6 and not have to recapture with my queen on f6.
+  </p>
+
+  <div data-ply='8'></div>
+
+  <h2>Slight Inaccuracy</h2>
+
+  <p>
+    &nbsp;&nbsp; <span data-line="5. g3 Nf6 6. Nxf6 Nxf6 7. Bg2 Be7 8. Nf3 O-O 9. O-O c5"></span>. White exchanged on f6 and fianchettoed, both develop, and I play c5. White has a slight advantage, until this point, he defends d4 with an inaccuracy <span data-line="10. Be3"></span> I can attack his bishop now <span data-line="10... Nd5 11. Bd2 cxd4 12. Nxd4"></span>, it's -0.6.
+  </p>
+
+  <h2> Hold fort plan </h2>
+
+  <p>
+    <span data-line="12... Qb6 13. Nb3"></span>. I think, white can't play b3, so I can put my queen on c4 and prevent the c pawn from kicking my knight. <span data-line="13... Qb5 14. Re1"></span> also defends d5 so I don't get an isolated pawn. I want to play b6 but I am worried about hanging rook on a8 and bishop on d7. <span data-line="14... Bf6 15. Rc1 Qc4 16. c3 b6 17. Re4"></span> If <span data-game="main3 main" data-line="15... Bxb2 16. c4"></span> forked.
+  </p>
+
+  <div data-ply="33"></div>
+
+  <h2> Reorganize for major exchanges </h2>
+
+  <p>
+    <span data-line="17... Qa6 18. Bf1 Qb7 19. Re1 Qd7 20. Bg2 Bb7 21. c4 Ne7 22. Bc3"></span> equal position. I welcome exchanges.
+  </p>
+
+  <div data-ply="43"></div>
+
+  <p>
+    <span data-line="22... Qxd1 23. Rexd1 Bxc3 24. Rxc3 Bxg2 25. Kxg2 Rfd8 26. Rcd3"></span>. Small hiccup I don't exchange rooks at first and give his knight a chance to come to center then I change my mind, <span data-line="26... Rdc8 27. Nd2 Rd8 28. Ne4 Rxd3 29. Rxd3"></span>. But now it's advantegous for white. I am in time trouble, and I can't stop white's rook on getting to the seventh rank. It went downhill from then on... <span data-line="29... Ng6 30. Rd7 Ne5 31. Rc7 f5"></span> +2 for white, and I quickly get mated.
+  </p>
+
+  <p> &nbsp;&nbsp;Full game reference: </p>
+  
+  <a href="https://lichess.org/NC4JtYuF">
+    <img src="https://lichess1.org/game/export/gif/black/NC4JtYuF.gif"/>
+  </a>
+
+</section>
+    <script>
+     Tetris(document.getElementById("chessmd"), {});
+    </script>
+  </body>
+</html>

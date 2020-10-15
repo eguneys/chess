@@ -1,0 +1,15 @@
+{
+  "name": "chess",
+  "version": "1.0.0",
+  "description": "Free Chess Articles",
+  "scripts": {
+    "build": "jener _pages .",
+    "watch": "watch 'yarn build' _pages"
+  },
+  "repository": "git@github.com:eguneys/chess.git",
+  "author": "Emre Guneyler <eguneys@hotmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "watch": "^1.0.2"
+  }
+}
